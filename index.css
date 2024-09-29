@@ -43,7 +43,8 @@
     max-width: 100%;
 }
 
-.banner--blog{
+.banner--blog,
+.banner--paquetes{
     position: relative;
     margin-bottom: 115px;
 }
@@ -59,7 +60,8 @@
     margin: 100px auto;
 }
 
-.banner__descripcion--blog{
+.banner__descripcion--blog,
+.banner__descripcion--paquetes{
     position: absolute;
     top: 10%;
     left: 20%;
@@ -68,8 +70,14 @@
     color: white;
 }
 
+.banner__descripcion--paquetes{
+    max-width: 579px;
+    max-height: 351px;
+}
+
 .banner__descripcion--titulo{
     font-size: 48px; /*48px - 3rem*/
+    margin: 0px;
 }
 
 .banner__titulo--subrayado{
@@ -79,10 +87,12 @@
     margin-top: 16px;
 }
 
+/*Body 4 - 32px*/
 .banner__descripcion--texto{
-    font-size: 32px;
+    font-size: 2rem; /*32px*/
     font-weight: 600;
     text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222, 1px 1px 0 #222;
+    margin-top: 32px;
 }
 
 .container,
@@ -114,7 +124,9 @@
 .ofertas__titulo--texto,
 .destinos__titulo--texto,
 .busca__titulo--texto,
-.tokyo__titulo--texto{
+.tokyo__titulo--texto,
+.testimonios__titulo--texto,
+.pago__titulo--texto{
     font-size: 32px;
 }
 
@@ -255,6 +267,8 @@ span.material-symbols-outlined {
     align-items: stretch;
     gap: 24px;
     margin-bottom: 112px;
+    margin-top: 64px;
+    padding: 0px;
 }
 
 .destinos__elemento {
@@ -275,7 +289,8 @@ span.material-symbols-outlined {
 .tokyo__explorando--titulo,
 .tokyo__compras--titulo,
 .tokyo__gastronomia--titulo,
-.tokyo__conclusion--titulo {
+.tokyo__conclusion--titulo,
+.pago__condiciones--texto {
     color: var(--grafito, #222);
     font-size: 28px;
     font-style: normal;
@@ -291,6 +306,7 @@ span.material-symbols-outlined {
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 24px;
+    text-align: left;
 }
 
 .pago {
@@ -303,9 +319,10 @@ span.material-symbols-outlined {
     gap: 24px;
 }
 
+/*H2 - 40px*/
 .pago__condiciones--destaque {
     color: var(--grafito, #222);
-    font-size: 28px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -343,6 +360,8 @@ span.material-symbols-outlined {
     display: flex;
     gap: 24px;
     align-items: stretch;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 .testimonios__elemento {
@@ -488,6 +507,28 @@ span.material-symbols-outlined {
 .recomendaciones__hiroshima,
 .recomendaciones__kyoto{
     width: 100%;
+}
+
+
+/*PAQUETES / DESTINOS*/
+
+.destinos{
+    text-align: center;
+}
+
+.pago__destinos{
+    align-items: center;
+    justify-content: center;
+}
+
+.destinos__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 104px;
+}
+
+.pago__imagenes{
+    padding: 0px;
 }
 
 
