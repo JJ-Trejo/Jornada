@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./index.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 </head>
 <body>
+    <header class="encabezado">
+        <div class="encabezado__container">
+            <a href="./index.html" class="encabezado__logo" aria-label="Ir a la pagina de inicio">
+                <img class="encabezado__logo--icono" alt="logo Jornada" src="./img/logoprovisriablanca-1@2x.png" />
+            </a>
+            <nav class="encabezado__navegacion">
+                <ul class="encabezado_navegacion_lista">
+                    <li> <a class="encabezado__navegacion--elemento" href="./blog.html" aria-label="Ir al Blog">Blog</a> </li>
+                    <li> <a class="encabezado__navegacion--elemento" href="./paquetes.html" aria-label="Ir a Paquetes de viaje">Paquetes de viaje</a> </li>
+                    <li> <a class="encabezado__navegacion--elemento" href="./Contacto.html" aria-label="Ir a Contacto">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="banner banner--paquetes">
+        <figure class="banner__wrapper banner__img banner__img--paquetes">
+            <img class="banner__img" src="./img/Banner-contacto.png" alt="Imagen de dos mujeres navegando por internet">
+            <figcaption class="banner__descripcion--paquetes">
+                <h1 class="banner__descripcion--titulo">¡Ponte en Contacto!</h1>
+                <div class="banner__titulo--subrayado"></div>
+                <p class="banner__descripcion--texto">
+                    ¿Dudas, sugerencias, problemas 
+                    por resolver? ¡Tenemos un equipo 
+                    de guardia para ayudarte!
+                </p>
+            </figcaption>
+        </figure>
+    </section>
+    <main class="contacto__container">
+        <section class="contacto">
+            <header class="contacto__titulo"></header>
+                <h3 class="contacto__titulo--texto">Destinos de la excrusión</h3>
+                <div class="contacto__titulo--subrayado"></div>
+                <p class="contacto__descripcion--texto">
+                    Tenemos un equipo siempre listo para resolver tus dudas, problemas, ofrecerte consejos y orientaciones objetivas para 
+                    hacer tu experiencia lo más placentera y tranquila posible. Completa tus datos y te contactaremos según la urgencia de 
+                    tu solicitud. ¡Puedes confiar en nosotros!
+                </p>
+            </header>
+            <form action="" class="contacto__formulario">
+                <ul class="contacto__formulario--datos">
+                    <li class="contacto__formulario--nombre">
+                        <input type="text" placeholder="Tu nombre" class="formulario--nombre">
+                    </li>
+                    <li class="contacto__formulario--correo">
+                        <input type="text" placeholder="Teléfono" class="formulario--telefono">
+                        <input type="text" placeholder="Correo" class="formulario--correo">
+                    </li>
+                    <li class="contacto__formulario--comentario">
+                        <input type="text" placeholder="Comentario" class="formulario--comentario">
+                    </li>
+                    <div>
+                        <button class="contacto__formulario--boton">
+                            Enviar!
+                        </button>
+                    </div>
+                </ul>
+            </form>
+        </section>
+    </main>
+
+    <img class="pre-footer__image" alt="Imagen de un paisaje" src="./img/pre-footer-contacto.png" />
+    
+    <footer class="footer__container">
+        <div class="footer">
+            <section class="footer__logo-container">
+                <img class="footer__logo-icon" alt="" src="./img/logobranco-1@2x.png" />
+                <div class="footer__info-container">
+                    <p class="footer__text-info">
+                        Horario de atendimiento: 08h - 20h (Lunes a Sábado)                    
+                    </p>
+                    <p class="footer__text-info">
+                        Desarrollado por Alura Latam. Proyecto fictício sin fines comerciales.                    
+                    </p>
+                </div>
+            </section>
+            <section class="footer__social-media-container">
+                <p class="footer__social-media-text">Accede a nuestras redes sociales:</p>
+                <div class="footer__social-media-icons">
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Logo de whatsapp" src="./img/whatsapp-1.svg" />
+                    </a>
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Logo de instragam" src="./img/instragam-1.svg" />
+                    </a>
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Logo de twiter" src="./img/twiter-1.svg" />
+                    </a>
+                </div>
+            </section>
+        </div>
+    </footer>
     
 </body>
 </html>
